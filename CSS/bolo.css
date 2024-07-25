@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike&family=Inter:wght@400;700&family=Open+Sans:wght@400;800&display=swap');
+
+:root {
+    --cor-barnco: #ffffff;
+    --cor-fundo: #FFA3A3;
+    --cor-de-botão: #AD88C6;
+    --cor-de-borda: #7469B6;
+    --cor-de-aviso: #000000;
+    --cor-mouse: #FFE6E6;
+    --cor-clicar: #25615e;
+
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-barnco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.principal {
+    background-image: url(../img/img\ fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    margin-bottom: -55%;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.container__caixa {
+    margin: 45% 6%
+}
+
+.container__abas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5em;
+}
+
+.container__titulo {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.container__abas__organizacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5em;
+    padding-top: 1em;
+}
+
+.container__botao {
+    background-color: var(--cor-de-botão);
+    border-radius: 32px;
+    border: solid var(--cor-de-borda);
+    padding: 1em 2em;
+    color: var(--cor-barnco);
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.btn_scroll {
+    top: 30%;
+    bottom:20%;
+    right: 2%;
+    position: fixed;
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes anima {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+.btn_scroll_style {
+    text-decoration: none;
+    width: 100%;
+    border-radius: 32px;
+    border: solid;
+    font-size: 20px;
+    padding: 2px 5px;
+    border-color: var(--cor-de-borda);
+    background-color: var(--cor-barnco);
+    color: var(--cor-de-borda);
+}
+
+.btn_scroll_style:hover {
+    background-color: #ebebeb;
+}
+
+
+.container__bolos__flex {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-left: 300px;
+    margin: 0 0 -420px 0;
+}
+
+.secundario__imagem_cupcakes>* {
+    margin-left: 2.7%;
+}
+
+
+.container__bolos__flex_mob {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-left: 300px;
+    margin: 0 0 -420px 0;
+}
+
+.container__bolos__flex_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding-left: 295px;
+    margin: 0 0 -420px 0;
+}
+
+.container__salgados__bebidas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    padding-left: 210px;
+    margin: 0 0 -350px 0;
+}
+
+/* .container__salgados__bebidas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 210px;
+}
+
+.container__salgados__bebidas > * {
+    
+  
+margin-bottom: -300px; 
+} */
+
+
+.container__bolos {
+    margin-top: 10%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -280px;
+    gap: 5px;
+}
+
+.subtitulo {
+    font-size: 33px;
+    font-weight: 700;
+    text-align: center;
+    margin: 6em 6% 3em;
+}
+
+.secundario__imagem {
+    width: 60%;
+}
+
+/* .secundario__imagem {
+    max-width: 50%; 
+    max-height: 50%;
+} */
+
+.secundario__imagem_mouse_ambrosia {
+    gap: 1000%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 1em 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor-barnco);
+    margin-bottom: 0.1em;
+}
+
+.container__descricao {
+    padding: 2em;
+    text-align: center;
+}
+
+.confeitaria {
+    text-align: center;
+    margin-top: 15%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.confeitaria_bolos {
+    text-align: center;
+    margin-top: 15%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.confeitaria_mob {
+    text-align: center;
+    margin-top: 15%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.confeitaria__titulo {
+    font-size: 48px;
+    color: var(--cor-barnco);
+}
+
+.confeitaria__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+    gap: 16px;
+}
+
+.img_calamidade {
+    margin-top: 10px;
+    width: 30%;
+    box-shadow: 0 0 30px #242323;
+}
+
+.descricao__texto {
+    width: 120%;
+    font-size: 85%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--cor-de-aviso);
+}
+
+.sobre {
+    padding: 16px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    width: 60%;
+    margin: auto;
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--cor-barnco);
+}
+
+.rodape {
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    color: #256125;
+    padding: 16px;
+    margin-top: -5%;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+}
+
+.linksa__direcionamento {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 12em 1em 12em;
+}
+
+.link__whatsapp__22 {
+    padding: 0em 33em 0 33em;
+}
+
+.link__whatsapp {
+    text-decoration: none;
+    color: var(--cor-barnco);
+    font-size: 1em;
+    color: #ffffff;
+    background: var(--cor-de-botão);
+    border-radius: 32px;
+    border: solid var(--cor-de-borda);
+    padding: 5px;
+}
+
+.link__criador {
+    text-decoration: none;
+    color: var(--cor-barnco);
+    font-size: 1.1em;
+    color: #ffffff;
+    background: var(--cor-de-botão);
+    border-radius: 32px;
+    border: solid var(--cor-de-borda);
+    padding: 5px;
+}
+
+.img_calamidade:hover {
+    margin-top: 15px;
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0 0 30px rgb(87, 159, 240);
+}
+
+.link__whatsapp:hover {
+    color: #36a736;
+    background-color: var(--cor-mouse);
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+.link__criador:hover {
+    color: rgb(87, 159, 240);
+    background-color: var(--cor-mouse);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.container__botao:hover {
+    background-color: var(--cor-mouse);
+    color: rgb(223, 61, 136);
+    transition: 1s;
+}
+
+@media (max-width: 1200px) {
+
+    .principal {
+        background-image: url(../img/img\ fundo.png);
+        background-repeat: no-repeat;
+        zoom: 40%;
+        margin-bottom: -150%;
+    }
+
+    .container__caixa {
+        margin: 140% 6%
+    }
+
+    .container__abas {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .container__titulo {
+        padding-left: 5%;
+        padding-top: 2%;
+    }
+
+    .container__abas__organizacao {
+        gap: 10px;
+        width: 100%;
+        padding-left: 2.5%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .container__botao {
+        padding: 5px 18px;
+        font-size: 12px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .btn_scroll {
+        top: 8%;
+        bottom:20%;
+        right: 6%;
+    }
+
+    .btn_scroll_style {
+        font-size: 15px;
+    }
+
+    .container__bolos__flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 210px;
+        margin-top: 100px;
+        margin-bottom: 130px;
+    }
+
+    .container__bolos__flex>* {
+        margin-bottom: -600px;
+    }
+
+    .container__bolos__flex_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 210px;
+        margin-top: 680px;
+    }
+
+    .container__bolos__flex_2>* {
+        margin-bottom: -565px;
+    }
+
+    .container__bolos__flex_mob {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 210px;
+        margin-top: 500px;
+    }
+
+    .container__bolos__flex_mob>* {
+        margin-bottom: -550px;
+    }
+
+    .container__bolos__flex_mob_top {
+        margin-top: 100px;
+    }
+
+    .container__salgados__bebidas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 210px;
+        margin-top: 100px;
+    }
+
+    .container__salgados__bebidas>* {
+        margin-bottom: -600px;
+    }
+
+    .container__salgados__bebidas2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 210px;
+        margin-top: 600px;
+    }
+
+    .container__bolos {
+        margin-top: 100%;
+        margin-left: -210px;
+        gap: 5px;
+    }
+
+    .container__bolos_mob {
+        margin-top: 100%;
+        margin-left: -210px;
+        gap: 10px;
+    }
+
+    .bpote {
+        margin-top: 10%;
+        margin-bottom: -535%;
+    }
+
+    .fatia {
+        margin-top: 148%;
+        margin-bottom: -250%;
+    }
+
+    .mouse {
+        margin-bottom: -280%;
+    }
+
+    .polar {
+        margin-bottom: -280%;
+    }
+    .tortas {
+        margin-bottom: -190%;
+    }
+
+    .secundario__imagem_cupcakes {
+        margin-top: 200%;
+        margin-bottom: -160%;
+    }
+
+    .secundario__imagem2 {
+        max-width: 70%;
+        max-height: 70%;
+    }
+
+    .secundario__imagem {
+        max-width: 80%;
+        max-height: 80%;
+    }
+
+    .imgzoom {
+        max-width: 180%;
+        max-height: 180%;
+        transform: scale(1.1);
+    }
+
+    .confeitaria {
+        margin-top: 200%;
+        padding: 0 30px;
+    }
+
+    .img_calamidade {
+        margin-top: 15px;
+        margin-bottom: -8%;
+        width: 80%;
+    }
+
+    .img_calamidade:hover {
+        margin-top: 20px;
+    }
+
+    .confeitaria_bolos {
+        margin-top: 200%;
+        padding: 0 30px;
+
+    }
+
+    .confeitaria_mob {
+        margin-top: 130%;
+        padding: 0 30px;
+    }
+
+    .confeitaria__titulo {
+        font-size: 28px;
+    }
+
+    .descricao__texto {
+        width: 120%;
+        font-size: 85%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .sobre {
+        padding: 5px;
+        text-align: center;
+        font-weight: 800;
+        width: auto;
+        margin: auto;
+    }
+
+    .linksa__direcionamento {
+        padding: 8px;
+    }
+
+    .link__whatsapp {
+        padding: 8px;
+    }
+
+    .link__whatsapp__22 {
+        padding: 3%;
+        transform: scale(1.0);
+    }
+
+    .link__criador {
+        padding: 3%;
+        transform: scale(1.0);
+        font-size: 11px;
+    }
+
+    /* .confeitaria {
+        display: flex;
+        flex-direction: column;
+        gap: 10px 0 0 0;
+    } */
+
+}
