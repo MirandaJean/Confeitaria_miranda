@@ -317,6 +317,8 @@
         background-repeat: no-repeat;
         zoom: 40%;
         margin-bottom: -150%;
+        align-items: center;
+        text-align: center;
     }
 
       .btn_scroll {
