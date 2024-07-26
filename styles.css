@@ -361,6 +361,7 @@
 
       .container__botao {
           padding: 5px 18px;
+          width: 102%;
           font-size: 12px;
           align-items: center;
           text-align: center;
