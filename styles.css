@@ -302,12 +302,20 @@
       transition: 1s;
   }
 
-  @media (max-width: 1200px) {
-
+  @media (max-width: 1200px) { 
+    
+    body {
+          background-color: var(--cor-fundo);
+          color: var(--cor-barnco);
+          font-family: var(--fonte-principal);
+          font-size: 16px;
+          font-weight: 400;
+      }
+    
       .principal {
           background-image: url(../img/img\ fundo.png);
           background-repeat: no-repeat;
-          zoom: 40%;
+          zoom: 42%;
           margin-bottom: -150%;
       }
 
