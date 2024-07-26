@@ -340,7 +340,7 @@
       .container__abas {
           display: flex;
           flex-direction: column;
-          gap: 0.1em;
+          gap: 1em;
           transform: scale(1.0);
       }
 
@@ -353,7 +353,7 @@
       .container__abas__organizacao {
           gap: 10px;
           width: 100%;
-          padding-top: -4%;
+          padding-top: -10%;
           padding-left: 2.5%;
           display: grid;
           grid-template-columns: 50% 50%;
