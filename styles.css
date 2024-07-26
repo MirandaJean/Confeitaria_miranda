@@ -340,7 +340,7 @@
       .container__abas {
           display: flex;
           flex-direction: column;
-          gap: 1px;
+          gap: 0.5px;
           transform: scale(1.0);
       }
 
