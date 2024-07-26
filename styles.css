@@ -340,8 +340,9 @@
       .container__abas {
           display: flex;
           flex-direction: column;
-          gap: 2px;
+          gap: 1em;
           transform: scale(1.0);
+          padding: -5% 0;
       }
 
   
