@@ -303,11 +303,6 @@
   }
 
   @media (max-width: 1200px) { 
-
-    .principal {
-          zoom: 40%;
-          margin-bottom: -150%;
-      }
     
     body {
           background-color: var(--cor-fundo);
@@ -315,6 +310,11 @@
           font-family: var(--fonte-principal);
           font-size: 16px;
           font-weight: 400;
+      }
+    
+    .principal {
+          zoom: 40%;
+          margin-bottom: -150%;
       }
 
       .btn_scroll {
