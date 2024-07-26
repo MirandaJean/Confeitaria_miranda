@@ -353,7 +353,7 @@
       .container__abas__organizacao {
           gap: 10px;
           width: 100%;
-          padding-top: -10%;
+          padding-top: -20%;
           padding-left: 2.5%;
           display: grid;
           grid-template-columns: 50% 50%;
