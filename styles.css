@@ -359,6 +359,10 @@
           grid-template-columns: 50% 50%;
       }
 
+      .container__abas__organizacao>* {
+          padding: -18% 0% ;
+      }
+    
       .container__botao {
           padding: 5px 18px;
           width: 83%;
