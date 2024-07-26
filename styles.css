@@ -315,10 +315,9 @@
     .principal {
         background-image: url(../img/img\ fundo.png);
         background-repeat: no-repeat;
-        zoom: 40%;
+        zoom: 49%;
         margin-bottom: -150%;
-        align-items: center;
-        text-align: center;
+        
     }
 
       .btn_scroll {
