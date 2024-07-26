@@ -31,7 +31,6 @@
 
   .principal {
     background-image: url(../Confeitaria_miranda/img/img\ fundo.png);
-    background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
     text-align: center;
@@ -314,10 +313,10 @@
     
     .principal {
         background-image: url(../img/img\ fundo.png);
-        background-repeat: no-repeat;
-        zoom: 49%;
-        margin-bottom: -150%;
-        
+        background-size: cover;
+        align-items: center;
+        text-align: center;
+        margin-bottom: -55%;
     }
 
       .btn_scroll {
