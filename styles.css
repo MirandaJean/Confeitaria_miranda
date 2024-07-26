@@ -304,18 +304,26 @@
 
   @media (max-width: 1200px) {
 
-    body {
-          background-color: var(--cor-fundo);
-    }
-
       .principal {
+          background-image: url(../img/img\ fundo.png);
           background-repeat: no-repeat;
           zoom: 40%;
           margin-bottom: -150%;
       }
 
+      .btn_scroll {
+        top: 5%;
+        bottom:20%;
+        right: 6%;
+    }
+
+    .btn_scroll_style {
+        font-size: 15px;
+    }
+
+
       .container__caixa {
-          margin: 140% 6%
+          margin: 145% 6%
       }
 
       .container__abas {
@@ -325,6 +333,7 @@
           transform: scale(1.0);
       }
 
+  
       .container__titulo {
           padding-left: 5%;
           padding-top: 2%;
@@ -345,15 +354,7 @@
           text-align: center;
       }
 
-      .btn_scroll {
-        top: 8%;
-        bottom:20%;
-        right: 6%;
-    }
 
-    .btn_scroll_style {
-        font-size: 15px;
-    }
 
       .subtitulo {
           margin: 3em 6% 1em;
