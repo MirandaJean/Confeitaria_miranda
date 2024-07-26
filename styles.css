@@ -305,7 +305,7 @@
   @media (max-width: 1200px) {
 
       .principal {
-          background-image: url(../img/img\ fundo.png);
+          background-image: url(../Confeitaria_miranda/img/img\ fundo.png);
           background-repeat: no-repeat;
           zoom: 40%;
           margin-bottom: -150%;
@@ -319,6 +319,7 @@
           display: flex;
           flex-direction: column;
           gap: 1em;
+          transform: scale (1.0);
       }
 
       .container__titulo {
