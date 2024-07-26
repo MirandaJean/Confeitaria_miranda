@@ -351,10 +351,10 @@
       }
 
       .container__abas__organizacao {
-          gap: 16px;
+          gap: 18px;
           width: 100%;
           margin-top: -9%;
-          padding-left: 2.5%;
+          padding-left: 3%;
           display: grid;
           grid-template-columns: 50% 50%;
       }
