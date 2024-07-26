@@ -304,6 +304,10 @@
 
   @media (max-width: 1200px) {
 
+    body {
+          background-color: var(--cor-fundo);
+    }
+
       .principal {
           background-repeat: no-repeat;
           zoom: 40%;
