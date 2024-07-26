@@ -316,7 +316,9 @@
         background-size: cover;
         align-items: center;
         text-align: center;
-        margin-bottom: -55%;
+        zoom: 40%;
+        margin: -2% -2% -150% -2%;
+      
     }
 
       .btn_scroll {
