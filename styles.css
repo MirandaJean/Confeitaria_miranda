@@ -316,6 +316,7 @@
           background-image: url(../img/img\ fundo.png);
           zoom: 40%;
           margin-bottom: -150%;
+          width: 100%;
       }
 
       .btn_scroll {
