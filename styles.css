@@ -319,8 +319,8 @@
           background-repeat: no-repeat;
           zoom: 40%;
           margin-bottom: -150%;
-          width: 100%;
-          height: 100%;
+          width: auto;
+          height: auto;
       }
 
       .btn_scroll {
