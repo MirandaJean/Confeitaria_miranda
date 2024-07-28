@@ -317,8 +317,7 @@
       .principal {
           background-image: url(../Confeitaria_miranda/img/img\ fundo.png);
           background-repeat: no-repeat;
-          background-size: contain; 
-          background-size: cover;
+          background-size: cover top;
           background-position: center top;
           zoom: 40%;
           margin-bottom: -150%;
