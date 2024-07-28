@@ -30,12 +30,13 @@
   }
 
   .principal {
-    background-image: url(../Confeitaria_miranda/img/img\ fundo.png);
-    background-size: cover;
-    align-items: center;
-    text-align: center;
-    margin-bottom: -55%;
-}
+      background-image: url(../Confeitaria_miranda/img/img\ fundo.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      text-align: center;
+      margin-bottom: -55%;
+  }
 
   .container {
       height: 100vh;
@@ -301,26 +302,14 @@
       transition: 1s;
   }
 
-  @media (max-width: 1200px) { 
-    
-    body {
-          background-color: var(--cor-fundo);
-          color: var(--cor-barnco);
-          font-family: var(--fonte-principal);
-          font-size: 16px;
-          font-weight: 400;
+  @media (max-width: 1200px) {
+
+      .principal {
+          background-image: url(../Confeitaria_miranda/img/img\ fundo.png);
+          background-repeat: no-repeat;
+          zoom: 40%;
+          margin-bottom: -150%;
       }
-    
-    .principal {
-        background-image: url(../img/img\ fundo.png);
-        background-size: cover;
-        align-items: center;
-        text-align: center;
-        zoom: 40%;
-        width: 103.7%;
-        margin: -2% 0% -158% -2%;
-      
-    }
 
       .btn_scroll {
         top: 5%;
@@ -351,21 +340,21 @@
       }
 
       .container__abas__organizacao {
-          gap: 10px 17px;
+          gap: 10px;
           width: 100%;
-          margin-top: -5%;
-          padding: 1% 1.5% 0 0;
+          padding-left: 2.5%;
           display: grid;
           grid-template-columns: 50% 50%;
       }
-    
+
       .container__botao {
           padding: 5px 18px;
-          width: 83%;
           font-size: 12px;
           align-items: center;
           text-align: center;
       }
+
+
 
       .subtitulo {
           margin: 3em 6% 1em;
