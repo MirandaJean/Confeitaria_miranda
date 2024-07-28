@@ -320,8 +320,9 @@
           background-size: contain;      
           background-position: center top;
           zoom: 40%;
-          margin-bottom: 0%;
-          height: auto;
+          margin-bottom: -150%;
+          width: 100%;
+          height: 100%;
       }
 
       .btn_scroll {
