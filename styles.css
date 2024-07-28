@@ -319,6 +319,9 @@
           background-repeat: no-repeat;
           background-size: cover top;
           background-position: center top;
+          display: flex;
+          justify-content: center;
+          align-items: center;
           zoom: 40%;
           margin-bottom: -150%;
           width: 100%;
