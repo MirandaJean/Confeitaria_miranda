@@ -320,13 +320,13 @@
           background-size: cover;
           background-position: center;
           zoom: 40%;
-          margin-bottom: -150%;
+/*           margin-bottom: -150%; */
           width: 100%;
           height: 100%;
       }
 
     .central_mob {
-          margin: 0;
+      margin: 0 0 -150% 0
     }
 
       .btn_scroll {
