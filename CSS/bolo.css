@@ -528,7 +528,7 @@ margin-bottom: -300px;
     .imgzoom {
         max-width: 180%;
         max-height: 180%;
-        transform: scale(1.1);
+        width: 80%;
     }
 
     .confeitaria {
