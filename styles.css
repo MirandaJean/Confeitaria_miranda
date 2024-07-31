@@ -327,6 +327,8 @@
 
     .central_mob {
       margin: 0 0 -150% 0
+      border-image: none no-repeat;
+
     }
 
       .btn_scroll {
