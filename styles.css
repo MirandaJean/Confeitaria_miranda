@@ -330,6 +330,7 @@
           background-position: center;
           align-items: center;
           justify-content: center;
+          padding-block: 100%;
     }
 
       .btn_scroll {
