@@ -326,11 +326,7 @@
       }
 
     .central_mob {
-          background-size: cover;
-          background-position: center;
-          align-items: center;
-          justify-content: center;
-          padding-block: 100%;
+          margin: 0;
     }
 
       .btn_scroll {
