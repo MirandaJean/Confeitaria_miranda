@@ -321,15 +321,11 @@
           background-position: center;
           zoom: 40%;
           margin-bottom: -150%;
+          padding-left: -4%;
+          padding-top: -4%;
           width: 100%;
           height: 100%;
       }
-
-    .central_mob {
-      padding-left: -4%;
-      padding-top: -4%;
-
-    }
 
       .btn_scroll {
         top: 5%;
