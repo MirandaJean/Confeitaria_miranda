@@ -66,6 +66,10 @@
     animation-direction: alternate;
 }
 
+.btn_scroll_top {
+    top: 24%;
+}
+
 @keyframes anima {
     0% {
         transform: scale(1);
@@ -92,6 +96,16 @@
     background-color: #ebebeb;
 }
 
+.btn_scroll_style_topo {
+    border-color: var(--cor-barnco);
+    background-color: var(--cor-de-borda);
+    color: var(--cor-barnco);
+    padding: 2px 29px;
+}
+
+.btn_scroll_style_topo:hover {
+    background-color: #7a71b3;
+}
   .subtitulo {
       font-size: 33px;
       font-weight: 700;
@@ -333,11 +347,21 @@
         right: 6%;
     }
 
+      .btn_scroll_top {
+        top: 5%;
+        bottom:20%;
+        right: 6%;
+    }
+
     .btn_scroll_style {
         font-size: 15px;
     }
 
-
+    .btn_scroll_style_topo {
+        font-size: 15px;
+        padding: 2px 23px
+    }
+    
       .container__caixa {
           margin: 140% 6%
       }
