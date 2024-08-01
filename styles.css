@@ -349,13 +349,13 @@
       }
 
       .btn_scroll {
-        top: 8%;
+        top: 7%;
         bottom:20%;
         right: 6%;
     }
 
       .btn_scroll_top {
-        top: 1%;
+        top: 3%;
         bottom:20%;
         right: 6%;
     }
@@ -366,7 +366,7 @@
 
     .btn_scroll_style_topo {
         font-size: 15px;
-        padding: 2px 25px
+        padding: 2px 23px
     }
     
       .container__caixa {
