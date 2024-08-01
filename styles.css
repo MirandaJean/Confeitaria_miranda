@@ -67,7 +67,7 @@
 }
 
 .btn_scroll_top {
-    top: 25%;
+    top: 28%;
     bottom:20%;
     right: 2%;
     position: fixed;
@@ -104,10 +104,15 @@
 }
 
 .btn_scroll_style_topo {
+    text-decoration: none;
+    width: 100%;
+    border-radius: 32px;
+    border: solid;
+    font-size: 20px;
+    padding: 2px 30px;
     border-color: var(--cor-barnco);
     background-color: var(--cor-de-borda);
     color: var(--cor-barnco);
-    padding: 2px 25px;
 }
 
 .btn_scroll_style_topo:hover {
