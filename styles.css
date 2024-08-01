@@ -67,7 +67,7 @@
 }
 
 .btn_scroll_top {
-    top: 24%;
+    top: 20%;
     bottom:20%;
     right: 2%;
     position: fixed;
@@ -355,13 +355,14 @@
     }
 
       .btn_scroll_top {
-        top: 2%;
-        bottom:20%;
+        top: 0.2%;
+        bottom:15%;
         right: 6%;
     }
 
     .btn_scroll_style {
         font-size: 15px;
+        padding: 2px 4px
     }
 
     .btn_scroll_style_topo {
