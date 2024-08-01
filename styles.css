@@ -107,7 +107,7 @@
     border-color: var(--cor-barnco);
     background-color: var(--cor-de-borda);
     color: var(--cor-barnco);
-    padding: 2px 29px;
+    padding: 2px 15px;
 }
 
 .btn_scroll_style_topo:hover {
@@ -349,13 +349,13 @@
       }
 
       .btn_scroll {
-        top: 5%;
+        top: 6%;
         bottom:20%;
         right: 6%;
     }
 
       .btn_scroll_top {
-        top: 5%;
+        top: 2%;
         bottom:20%;
         right: 6%;
     }
