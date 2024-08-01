@@ -107,7 +107,7 @@
     border-color: var(--cor-barnco);
     background-color: var(--cor-de-borda);
     color: var(--cor-barnco);
-    padding: 2px 20px;
+    padding: 2px 25px;
 }
 
 .btn_scroll_style_topo:hover {
@@ -355,8 +355,8 @@
     }
 
       .btn_scroll_top {
-        top: 3%;
-        bottom:60%;
+        top: 1%;
+        bottom:20%;
         right: 6%;
     }
 
@@ -366,7 +366,7 @@
 
     .btn_scroll_style_topo {
         font-size: 15px;
-        padding: 2px 20px
+        padding: 2px 25px
     }
     
       .container__caixa {
