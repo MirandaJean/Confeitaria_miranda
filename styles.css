@@ -109,7 +109,7 @@
     border-radius: 32px;
     border: solid;
     font-size: 20px;
-    padding: 2px 29px;
+    padding: 2px 30px;
     border-color: var(--cor-barnco);
     background-color: var(--cor-de-borda);
     color: var(--cor-barnco);
@@ -360,7 +360,7 @@
     }
 
       .btn_scroll_top {
-        top: 3%;
+        top: 4%;
         bottom:20%;
         right: 6%;
     }
