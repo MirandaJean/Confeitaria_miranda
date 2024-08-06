@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Alike&family=Inter:wght@400;700&family=Open+Sans:wght@400;800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Alike&family=Inter:wght@400;700&family=Open+Sans:wght@400;800&display=swap');
 
   html {
       scroll-behavior: smooth;
@@ -518,7 +518,7 @@
       .aviso {
           display: block;
           margin: auto;
-          margin-top: 12%;
+          margin-top: 32%;
           padding-top: 5%;
           max-width: 65%;
           height: auto;
