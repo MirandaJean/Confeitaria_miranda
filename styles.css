@@ -514,7 +514,7 @@
       }
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 512px) {
       .aviso {
           display: block;
           margin: auto;
