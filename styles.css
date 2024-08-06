@@ -402,7 +402,6 @@
           padding-left: 2.5%;
           display: grid;
           grid-template-columns: 50% 50%;
-          margin-bottom: 20%;
       }
 
       .container__botao {
@@ -515,7 +514,7 @@
       }
   }
 
-  @media screen and (max-width: 512px) {
+  @media screen and (max-width: 1200px) {
       .aviso {
           display: block;
           margin: auto;
