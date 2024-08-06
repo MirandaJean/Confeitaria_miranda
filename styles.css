@@ -526,4 +526,10 @@
       .subtitulo {
           margin: 30% 6% 1em;
       }
+
+      .btn_scroll_top {
+        top: 4%;
+        bottom:20%;
+        right: 6%;
+    }
   }
