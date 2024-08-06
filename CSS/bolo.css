@@ -458,13 +458,12 @@ margin-bottom: -300px;
         padding: 2px 23px;
     }
     
-    .container__bolos__flex {
+    container__bolos__flex {
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding-left: 210px;
         margin-top: 100px;
-        margin-bottom: 130px;
     }
 
     .container__bolos__flex>* {
@@ -476,13 +475,13 @@ margin-bottom: -300px;
         flex-direction: column;
         justify-content: center;
         padding-left: 210px;
-        margin-top: 680px;
+        margin-top: 600px;
     }
 
     .container__bolos__flex_2>* {
-        margin-bottom: -400px;
+        margin-bottom: -565px;
     }
-
+      
     .container__bolos__flex_mob {
         display: flex;
         flex-direction: column;
@@ -533,16 +532,16 @@ margin-bottom: -300px;
 
     .bpote {
         margin-top: 10%;
-        margin-bottom: -535%;
+        margin-bottom: -150%;
     }
 
     .fatia {
-        margin-top: 148%;
-        margin-bottom: -250%;
+        margin-top: 48%;
+        margin-bottom: -150%;
     }
 
     .mouse {
-        margin-bottom: -280%;
+        margin-bottom: -230%;
     }
 
     .polar {
@@ -553,8 +552,8 @@ margin-bottom: -300px;
     }
 
     .secundario__imagem_cupcakes {
-        margin-top: 200%;
-        margin-bottom: -160%;
+        margin-top: 100%;
+        margin-bottom: -60%;
     }
 
     .secundario__imagem2 {
