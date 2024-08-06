@@ -358,10 +358,6 @@
           height: 100%;
       }
 
-      .btn {
-          gap: 5px
-      }
-
       .btn_scroll {
         top: 7.5%;
         bottom:20%;
@@ -369,7 +365,7 @@
     }
 
       .btn_scroll_top {
-        top: 4%;
+        top: 4.5%;
         bottom:20%;
         right: 6%;
     }
