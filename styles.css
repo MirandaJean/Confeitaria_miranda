@@ -518,8 +518,8 @@
       .aviso {
           display: block;
           margin: auto;
-          margin-top: 40%;
-          margin-bottom: -40%
+          margin-top: 30%;
+          margin-bottom: -100%
           padding-top: 5%;
           max-width: 65%;
           height: auto;
