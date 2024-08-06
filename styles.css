@@ -518,10 +518,12 @@
       .aviso {
           display: block;
           margin: auto;
-          margin-top: 20%;
-          margin-bottom: 5%
+          margin-top: 48%;
           padding-top: 5%;
           max-width: 65%;
           height: auto;
+      }
+      .subtitulo {
+          margin: 50% 6% 1em;
       }
   }
