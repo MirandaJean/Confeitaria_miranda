@@ -458,7 +458,7 @@ margin-bottom: -300px;
         padding: 2px 23px;
     }
     
-    container__bolos__flex {
+    .container__bolos__flex {
         display: flex;
         flex-direction: column;
         justify-content: center;
