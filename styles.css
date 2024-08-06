@@ -414,7 +414,7 @@
 
 
       .subtitulo {
-          margin: 3em 6% 1em;
+          margin: 80% 6% 1em;
       }
 
       .container__divisor {
@@ -514,7 +514,7 @@
       }
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 578px) {
       .aviso {
           display: block;
           margin: auto;
