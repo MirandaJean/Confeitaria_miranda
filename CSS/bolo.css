@@ -541,7 +541,7 @@ margin-bottom: -300px;
     }
 
     .mouse {
-        margin-top: 23%;
+        margin-top: 30%;
         margin-bottom: -280%;
     }
 
@@ -643,3 +643,33 @@ margin-bottom: -300px;
     } */
 
 }
+
+@media (max-width: 1200px) {
+    
+    .container__abas {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20%;
+        gap: 1em;
+        transform: scale(1.0);
+    }
+
+    .container__abas__organizacao {
+        gap: 0 3em;
+        align-items: center;
+        width: 100%;
+        padding-left: 2.5%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .container__botao {
+        padding: 1%;
+        font-size: 12px;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+
