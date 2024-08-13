@@ -216,6 +216,8 @@
   .confeitaria__lista {
       display: flex;
       justify-content: center;
+      text-align: center;
+      align-items: center;
       list-style-type: none;
       margin: 5em 0;
       gap: 16px;
