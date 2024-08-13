@@ -153,6 +153,12 @@
       text-align: center;
   }
 
+  .confeitaria_mob {
+    text-align: center;
+    margin-top: 15%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
   .descricao__titulo {
       font-size: 48px;
       color: var(--cor-barnco);
@@ -190,16 +196,6 @@
       text-decoration: none;
       margin-bottom: 1em
   }
-
-  /* .container__botao {
-    background-color: var(--cor-de-botão);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--cor-barnco);
-    display: block;
-    text-decoration: none;
-    margin-bottom: 1em;
-} */
 
   .container__titulo {
       font-size: 38px;
