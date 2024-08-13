@@ -484,8 +484,8 @@
       .confeitaria_mob {
         margin-top: 130%;
         padding: 0 30px;
-        text-align: center;
-        align-items: center;
+        width: auto;
+        margin: auto;
       }
 
       .sobre {
