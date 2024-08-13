@@ -590,11 +590,12 @@ margin-bottom: -300px;
     }
 
     .confeitaria_mob {
-        margin-top: 130%;
+        margin-top: 100%;
         padding: 0 30px;
     }
 
     .confeitaria__titulo {
+        margin-top: 10px;
         font-size: 28px;
     }
 
