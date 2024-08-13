@@ -618,6 +618,7 @@ margin-bottom: -300px;
 
     .link__whatsapp {
         padding: 8px;
+        font-size: 13px;
     }
 
     .link__whatsapp__22 {
@@ -630,12 +631,6 @@ margin-bottom: -300px;
         transform: scale(1.0);
         font-size: 11px;
     }
-
-    /* .confeitaria {
-        display: flex;
-        flex-direction: column;
-        gap: 10px 0 0 0;
-    } */
 
 }
 
