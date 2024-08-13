@@ -481,6 +481,11 @@
           margin-top: 20px;
       }
 
+      .confeitaria_mob {
+        margin-top: 130%;
+        padding: 0 30px;
+      }
+
       .sobre {
           padding: 5px;
           text-align: center;
