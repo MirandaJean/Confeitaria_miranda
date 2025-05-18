@@ -518,15 +518,6 @@
   }
 
   @media screen and (max-width: 578px) {
-       .principal {
-        background-image: url(../img/img\ fundo.png);
-        background-repeat: no-repeat;
-/*         zoom: 40%; */
-        backgroun-size: cover;
-        margin-bottom: -150%;
-        width: 100%;
-        height: 100%;
-           
       .aviso {
           display: block;
           margin: auto;
